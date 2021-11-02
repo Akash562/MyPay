@@ -62,8 +62,8 @@ public class RazorActivity extends Activity implements PaymentResultListener {
             options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.png");
             options.put("currency", "INR");
             options.put("amount", "100");
-            options.put("prefill.email", "rawatakashkumarbsacet99@gmail.com");
-            options.put("prefill.contact","8273093562");
+            options.put("prefill.email", "abc@gmail.com");
+            options.put("prefill.contact","0123456789");
             new Checkout().open(RazorActivity.this,options);
         } catch (Exception e) {
             Toast.makeText(RazorActivity.this, "Error in payment: " + e.getMessage(), Toast.LENGTH_SHORT).show();
